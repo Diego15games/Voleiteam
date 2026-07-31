@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Vôlei Team</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0">
+
+</head>
+
+<body>
+
+<main>
+
+<section id="jogadores" class="pagina ativa">
+
+</section>
+
+<section id="sorteio" class="pagina">
+
+</section>
+
+<section id="placar" class="pagina">
+
+</section>
+
+<section id="ranking" class="pagina">
+
+</section>
+
+</main>
+
+<nav>
+
+<button class="menu ativo" data-page="jogadores">
+
+👥
+
+<span>Jogadores</span>
+
+</button>
+
+<button class="menu" data-page="sorteio">
+
+🎲
+
+<span>Sorteio</span>
+
+</button>
+
+<button class="menu" data-page="placar">
+
+🏐
+
+<span>Placar</span>
+
+</button>
+
+<button class="menu" data-page="ranking">
+
+🏆
+
+<span>Ranking</span>
+
+</button>
+
+</nav>
+
+<div id="modalEditar" class="modal">
+
+    <div class="modalBox">
+
+        <h2>Editar Jogador</h2>
+
+        <input type="text" id="editNome" placeholder="Nome">
+
+        <select id="editSexo">
+            <option value="M">🚹 Masculino</option>
+            <option value="F">🚺 Feminino</option>
+        </select>
+
+        <label class="check">
+
+            <input type="checkbox" id="editLevantador">
+
+            🏐 Levantador
+
+        </label>
+
+        <div class="botoesModal">
+
+            <button id="salvarJogador">
+                💾 Salvar
+            </button>
+
+            <button id="cancelarEditar">
+                ❌ Cancelar
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
